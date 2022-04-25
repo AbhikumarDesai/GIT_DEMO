@@ -1,11 +1,99 @@
 .profile{
     justify-content: center;
-    margin-left: 45%;
-    margin-top: 5%;
+    margin-left: 47%;
+    margin-top: 2%;
 }
-img{
+#jd{
     border-radius: 50%;
     border: none;
     height: 90px;
     width: 90px;
+}
+ .heading{
+    margin-top: 15px;
+    text-align: center;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+}
+h3{
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    color: rgb(109, 108, 108)
+}
+h3 span{
+    color: rgb(66, 128, 236);
+}
+h1{
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    
+}
+p{
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    color:rgb(109, 108, 108) ;
+}
+#para{
+    margin-bottom: 49px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    margin: 17px;
+}
+.privacy{
+    display: flex;
+    width: 37%;
+    border: 1px solid gray;
+    border-radius: 12px;
+    margin: 15px;
+}
+.security{
+    display: flex;
+    width: 37%;
+    border: 1px solid gray;
+    border-radius: 12px;
+    margin: 15px;
+}
+.main_box{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    padding-left: 30px;
+    margin: 0;
+}
+.privacy_suggesion{
+    margin-left: 175px;
+    display: flex;
+    width: 76.3%;
+    border: 1px solid gray;
+    border-radius: 12px;
+   
+}
+#ps{
+    margin-left: 170px;
+    margin-top: 30px;
+    width: 300px;
+    height: 130px;
+}
+#p2{
+    margin-bottom: 90px;
+}
+h2{
+    border-top: 1px solid gray;
+    border-bottom-left-radius:12px;
+    border-bottom-right-radius:12px;
+    margin-top: 30px;
+    width: 101.5%;
+    margin-bottom: 0px;
+    font-size: 1.2rem;
+    color: rgb(66, 128, 236);
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 30px;
+    margin-left: -30px;
+    padding-right: 180px;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+}
+#h2_last{
+    width: 168.5%;
 }
