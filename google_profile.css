@@ -1,0 +1,11 @@
+.profile{
+    justify-content: center;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+img{
+    border-radius: 50%;
+    border: none;
+    height: 90px;
+    width: 90px;
+}

@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: black;
+    font: 80px;
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+p{
+    font-family: monospace;
+    font-size: 1.2rem;
+    width: auto;
+}
+button{
+    background-color: black;
+    padding: 5px 15px;
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+#hello{
+    height:125px;
+    width: 150px;
+    margin: 30px 10px;
+    
+}
+.main{
+    padding-left: 30px;
+}
+.card1{
+    display: flex;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    margin: 10px 20px;
+    width: 35%;
+    background-color: white;
+}
+/* .card2{
+    display: flex;
+    
+} */
+.first{
+    display: flex;
+    height: 33vh;
+     justify-content: center;
+     margin-top: 60px;
+}
+.a1{
+    display: flex;
+    justify-content: center;
+}
+ #gg{
+    height: 42px;
+    width: 42px;
+   
+    
+}
+#gf{
+    display: inline-block;
+    margin-left: 505px;
+    width: 500px;
+    height: 250px;
+   
+}
+#gv{
+    height: 38px;
+    width: 28px;
+    margin-top: 6px;
+    margin-left: -40px;
+    display: inline-block;
+}
+input{
+    width: 700px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid rgb(135, 134, 134);
+    font-size: larger;
+    padding-left: 15px;
+    overflow:visible;
+}
+.l{
+    margin-left: 10px;
+}
+.h{
+    margin-left: 20px;
+    width: 30px;
+    height: 5px;
+    background-color: rgb(147, 143, 143);
+    margin: 10px 0;
+}
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.menu{
+   width: 40px; 
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   margin-left: 75%;
+   margin-right: 16px;
+}
+.menu .d{
+    background-color: rgb(147, 143, 143);
+    border-radius: 50%;
+    padding: 4.5px;
+    margin: 1px;
+}
+.h2{
+    color:rgb(147, 143, 143) ;
+    font-size: large;
+    text-align: center;
+    margin-top: 45px;
+    font-family:sans-serif;
+}
+.nav{
+    height: 10px;
+}
+ul{
+    
+    display: flex;
+}
+li{
+    margin: 2px 15px;
+    list-style: none;
+    font-size: 1.3rem;
+}
+li:hover{
+    color: rgb(50, 94, 240);
+    border-bottom: 2px solid rgb(50, 94, 240);
+    
+}
+.j{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(17, 85, 67);
+    margin-top: 5px;
+    font-size: 1.4rem;
+}
+.j h3{
+    color: white;
+    text-align: center;
+    margin-top: 8px;
+}
+.container{
+    display: flex;
+    position: sticky;
+}
+#lang{
+    
+    margin-left: 330px;
+    
+    display: flex;
+}
+.m{
+    margin: 35px 20px;
+    color: rgb(147, 143, 143);
+}
