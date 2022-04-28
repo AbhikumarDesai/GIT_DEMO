@@ -54,12 +54,12 @@ button{
     display: flex;
     justify-content: center;
 }
- #gg{
+ /* #gg{
     height: 42px;
     width: 42px;
-   
-    
-}
+    margin-top: 5px;
+    margin-right: 10px;
+} */
 #gf{
     display: inline-block;
     margin-left: 505px;
@@ -74,14 +74,22 @@ button{
     margin-left: -40px;
     display: inline-block;
 }
+#search{
+    height: 38px;
+    width: 33px;
+    z-index: 1;
+    margin-top: 8px;
+    margin-left: 5px;
+}
 input{
     width: 700px;
     height: 50px;
     border-radius: 25px;
     border: 1px solid rgb(135, 134, 134);
-    font-size: larger;
-    padding-left: 15px;
+    font-size: 1.6rem;
+    padding-left: 47px;
     overflow:visible;
+    margin-left: -42px;
 }
 .l{
     margin-left: 10px;
@@ -131,6 +139,8 @@ li{
     margin: 2px 15px;
     list-style: none;
     font-size: 1.3rem;
+    border-bottom: 2px solid white;
+
 }
 li:hover{
     color: rgb(50, 94, 240);
@@ -164,4 +174,7 @@ li:hover{
 .m{
     margin: 35px 20px;
     color: rgb(147, 143, 143);
+}
+.m:hover{
+    color: rgb(103, 100, 100);
 }
