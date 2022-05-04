@@ -1,0 +1,261 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#f6f3f3 ;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid rgb(191, 189, 189);
+}
+input{
+    margin: 20px;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    background-color: #f6f3f3;
+}
+.logo img{
+    height: 45px;
+    width: 150px;
+    margin-left: 200px;
+    margin-top: 15px;
+ 
+}
+.man{
+    margin: 3px;
+}
+.man img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid red;
+    object-fit: cover;
+}
+.man h3{
+    text-align: center;
+    overflow-x: auto;
+    font-size: 0.8rem;
+}
+.story{
+    display: flex;
+    overflow-x: auto;
+    border: 2px solid rgb(181, 179, 179);
+    margin-top:40px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: white;
+}
+.w-60{
+    width: 58.6%;
+    margin-left: 200px;
+    /* margin-top: 15px; */
+}
+.w-40{
+    margin-top: 62px;
+    padding: 0px 25px;
+    width: 40%;
+ 
+}
+
+.chat-section{
+    display: flex;
+    position: sticky;
+    top: 140px;
+    
+    
+}
+.post-section .dot{
+    height: 17px;
+    width: 35px;
+    border: none;
+    margin: 28px 15px 28px 278px;
+}
+.icons-1{
+    margin: 5px 60px;
+}
+#hm{
+    height: 48px;
+    width: 45px;
+    padding-top: 7px;
+}
+.icons-1  img{
+    
+    height: 35px;
+    width: 35px;
+    justify-content: space-around;
+    padding: 2px 4px;
+    margin: 2px 10px;
+    
+}
+.chat-section-2{
+    display: flex;
+    margin: 5px 0px;
+    /* position: sticky;
+    top:auto; */
+}
+.chat-section img{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    padding: 2px;
+    
+    border: 2px solid red;
+    object-fit: cover;
+}
+.chat-section .text{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.chat-section-2 a{
+    text-decoration: none;
+    color: dodgerblue;
+    margin-left: 120px;
+    margin-top: 32px;
+    
+
+}
+.chat-section-2 img{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid red;
+    object-fit: cover;
+   
+}
+.chat-section-2 .text{
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 90px;
+    
+}
+ .chat_scroll{
+
+    position: fixed;
+    top: 350;
+    margin-top: 58px;
+    overflow: visible;
+	
+    
+	
+}
+
+.second{
+    position: fixed;
+    top: auto;
+    
+}
+.right{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    position: sticky;
+    top: auto;
+    
+}
+.right h3{
+    color: rgb(117, 114, 114);
+    font-size: 0.9rem;
+    
+}
+.right a{
+    color: black;
+    margin-left: 158px;
+    text-decoration: none;
+}
+
+.post-section{
+    display: flex;
+    margin: 7px
+   
+
+}
+.post-section img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid red;
+    object-fit: cover;
+    
+}
+.post-section .text{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 450px;
+    
+}
+.text p{
+    color: rgb(85, 84, 84);
+    font-size: 0.8rem;
+}
+.post-section a{
+    text-decoration: none;
+    color: dodgerblue;
+    margin-left: 300px;
+    margin-top: 28px; 
+}
+.main{
+    margin-top: 27px;
+    border:  2px solid rgb(181, 179, 179);
+    border-radius: 4px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    
+}
+.main .post{
+    height: 500px;
+    width: auto;
+    margin-left: -1px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icons{
+    display: flex;
+    
+}
+#share{
+    font-weight: 100px;
+}
+.icons img{
+    height: 40px;
+    width: 40px;
+    justify-content: space-around;
+    padding: 2px 4px;
+    margin: 2px 8px;
+    
+}
+.container{
+    display: flex;
+}
+#save{
+    margin-left: 680px;
+}
+.main p{
+    margin-left: 12px;
+    
+    margin-top: 7px;
+}
+.main h4{
+    margin-left: 12px;
+    font-size: larger;
+}
