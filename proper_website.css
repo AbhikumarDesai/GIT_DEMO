@@ -1,0 +1,198 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+.hd{
+    justify-content: center;
+    text-align: center;
+    font-size: 5.6rem;
+    color: brown;
+    font-family: cursive;
+    text-shadow: 3px 3px 4px darkgray;
+}
+body{
+    background-image: radial-gradient(circle, lightyellow 10%,white);
+    background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+    /* background-color: rgb(54, 237, 30); */
+    
+   
+}
+.nav{
+   margin-left: 219px;
+}
+ul{
+    height: 63px;
+    display: flex;
+}
+li {
+    margin: 38px 12px;
+   
+    list-style: none;
+    font-size: 1.5rem;
+    
+
+}
+li a:hover{
+    background-color: lightyellow;
+    
+}
+.d{
+    text-align: center;
+}
+li a{
+    border-radius: 4px;
+    color: black;
+   font-size: 1.7rem;
+    padding: 5px 12px;
+    background-color: rgb(239, 229, 175);;
+    list-style: none;
+    text-decoration: none;
+}
+.logo{
+    margin: 0;
+}
+img{
+    height: 120px;
+    width: 150px;
+    margin: -20px 17px 8px 45px;
+}
+.nv{
+    background-color: rgb(255, 255, 255);
+    font-style:bold;
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+   
+}
+.nv:hover{
+    background-color: black;
+    color: white;
+    border: 1.5px solid rgb(182, 180, 180);
+}
+button{
+    margin-top: 34px ;
+    margin-left: 256px;
+   
+}
+#bg{
+    height: 800px;
+    width: 500px;
+    margin-left: 65%;
+    z-index: -1;
+}
+.main{
+    display: flex;
+    width: 75%;
+}
+h1{
+    background-image: linear-gradient(to right,lightgreen,lightyellow);
+    display: block;
+    padding-left: 150px;
+    font-size: 2.5rem;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-left: 45px;
+    color: green;
+    padding: 5px 5px;
+    text-shadow: 1px 1px 2px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.para{
+    font-size: 1.2rem;
+    margin-top: 3%;
+    margin-left: 45px;
+    color: black;
+    font-family:monospace;
+    width: 100%;
+}
+
+#heading
+{
+    background-image: linear-gradient(to right,red,lightyellow,red);
+    margin-left: 45px;
+    color: rgb(1, 0, 0);
+    text-shadow: 2px 2px 3px rgb(239, 220, 220);
+    font-size: 2.5rem;
+    margin-top: -18%;
+    padding-top: -7px;
+    text-align: center;
+    width: 50%;
+    font-weight: bold;
+   padding-bottom: 7px;
+    text-decoration:dotted;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.dg-main{
+    display: flex;
+    width: 65%;
+
+}
+#gs{
+    height: 200px;
+    width: 225px;
+    border-radius: 50%;
+    border: none;
+    margin: 55px 17px;
+    box-shadow: -4px 8px 9px black;
+}
+.g-h{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(126, 95, 14);
+    background-image: linear-gradient(to right,white,rgb(232, 187, 73));
+    width: 40%;
+    padding-left: 10px;
+}
+.f-main .para{
+    width: 90%;
+}
+h2{
+    color: purple;
+    font-family: cursive;
+    margin-left: 45px;
+    margin-top: 15px
+}
+.f-main .nv{
+    margin-left: 45px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.f-main .nv:hover{
+    background-color: black;
+    color: white;
+    border: 1.5px solid rgb(182, 180, 180);
+}
+
+.pg-main{
+    margin-left: 30%;
+    display: flex;
+}
+.p-main .para{
+    width: 90%;
+}
+.p-h{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(242, 205, 242);
+    background-image: linear-gradient(to right,purple,white);
+    width: 40%;
+    padding-left: 10px;
+}
+.p-main .nv{
+    margin-left: 45px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.p-main .nv:hover{
+    background-color: black;
+    color: white;
+    border: 1.5px solid rgb(182, 180, 180);
+}

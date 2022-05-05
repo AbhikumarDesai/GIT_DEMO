@@ -25,7 +25,7 @@ input{
     margin: 20px;
     width: 250px;
     height: 30px;
-    text-align: center;
+    padding-left: 10px;
     border: none;
     border-radius: 4px;
     background-color: #f6f3f3;
@@ -111,8 +111,8 @@ input{
     top:auto; */
 }
 .chat-section img{
-    height: 75px;
-    width: 75px;
+    height: 65px;
+    width: 65px;
     border-radius: 50%;
     padding: 2px;
     
@@ -120,20 +120,30 @@ input{
     object-fit: cover;
 }
 .chat-section .text{
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 15px;
+}
+.text p{
+    margin-top: 5px;
+}
+.chat-section a{
+    text-decoration: none;
+    color: dodgerblue;
+    margin-left: 140px;
+    margin-top: 26px;
+    
 }
 .chat-section-2 a{
     text-decoration: none;
     color: dodgerblue;
-    margin-left: 120px;
-    margin-top: 32px;
+    margin-left: 132px;
+    margin-top: 26px;
     
 
 }
 .chat-section-2 img{
-    height: 75px;
-    width: 75px;
+    height: 65px;
+    width: 65px;
     border-radius: 50%;
     padding: 2px;
     border: 2px solid red;
@@ -141,7 +151,7 @@ input{
    
 }
 .chat-section-2 .text{
-    margin-top: 20px;
+    margin-top: 12px;
     margin-left: 15px;
     width: 90px;
     
@@ -156,7 +166,9 @@ input{
     
 	
 }
-
+.right a{
+    margin-top: 0px;
+}
 .second{
     position: fixed;
     top: auto;
@@ -189,8 +201,8 @@ input{
 
 }
 .post-section img{
-    height: 70px;
-    width: 70px;
+    height: 55px;
+    width: 55px;
     border-radius: 50%;
     padding: 2px;
     border: 2px solid red;
@@ -198,10 +210,15 @@ input{
     
 }
 .post-section .text{
-    margin-top: 15px;
+    margin-top: 5px;
     margin-left: 15px;
     width: 450px;
     
+}
+.text h4{
+    margin-top: 5px;
+    font-size: 0.9rem;
+    margin-bottom: -1.9px;
 }
 .text p{
     color: rgb(85, 84, 84);
@@ -211,7 +228,8 @@ input{
     text-decoration: none;
     color: dodgerblue;
     margin-left: 300px;
-    margin-top: 28px; 
+    margin-top: 20px; 
+    margin-right: 10px;
 }
 .main{
     margin-top: 27px;
@@ -219,6 +237,7 @@ input{
     border-radius: 4px;
     margin-bottom: 15px;
     padding-bottom: 10px;
+    background-color: white;
     
 }
 .main .post{
