@@ -13,7 +13,7 @@
 body{
     background-image: radial-gradient(circle, lightyellow 10%,white);
     background-repeat: no-repeat;
-}
+    }
 .container{
     display: flex;
     /* background-color: rgb(54, 237, 30); */
@@ -69,12 +69,24 @@ img{
     border: none;
     border: 2px solid rgb(0, 0, 0);
     cursor: pointer;
+    
    
 }
 .nv:hover{
     background-color: black;
     color: white;
     border: 1.5px solid rgb(182, 180, 180);
+    animation-name: button;
+    animation-duration: 4s;
+    
+}
+@keyframes button{
+    from{}
+    to{
+        transform: rotate(-18deg);
+        width: 180px;
+        height: 50px;
+    }
 }
 button{
     margin-top: 34px ;
@@ -174,6 +186,7 @@ h2{
 .pg-main{
     margin-left: 30%;
     display: flex;
+    
 }
 .p-main .para{
     width: 90%;
