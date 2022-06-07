@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Inter&family=Poppins:wght@400;900&display=swap'); */
+
 *{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -13,34 +15,237 @@
 body{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(#30cfd0 0%, #330876 100%);
+    /* background-image: linear-gradient(#30cfd0 0%, #330876 100%); */
     
-
-
-}
+        background-color: #2ac176;
+        height: 100vh;
+        width: auto;
+        background-image: -webkit-linear-gradient(-150deg,#dbebde 50%, #f8f8f8 45%);
+        min-height: 400px;
+    }
+    h5{
+        color: #185f3c;
+        text-shadow: 0 2px 4px rgb(246, 244, 244);
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 7px auto;
+    }
 .logo{
-    height: 100px;
-    
-    margin-left: 25px;
+    height: 50px;
+   display: flex;
+   align-items: center;
+   border-radius: 50%;
+   box-shadow: 0 0 20px #51647a;
 }
 .header{
+    height: 50px;
     display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    background: #f8f8f8 ;
 }
 .navbar{
-    margin-left: 380px;
-    margin-top: 7px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    margin-left: 22vw; 
+    
 }
 a{
     margin: 7px 15px;
     padding: 3px 7px;
     font-size: 1.0rem;
+    color: #36495f;
 }
 .icons{
    margin-left: 19vw;
    padding: 7px ;
+   color: #36495f;
 }
 i{
     margin: 0px 10px;
     font-size: 20px;
+    color: #36495f;
+}
+h2{
+    font-weight: bolder;
+    font-size: 2.5rem;   
+    display: inline-block;
+}
+/* h2::first-letter{
+    font-size: 5.1rem;
+    color: #2ac176;
+} */
+.text{
+    font-size: 1.2rem;
+    color: #36495f;
+    text-align: justify;
+    padding:5px 0px 5px 38px ;
+    
+}
+.about{
+    width: 50vw;
+    text-align: center;
+    margin: 2% 0px;
+
 }
 
+.dog{
+    height: 78vh;
+    width: 28vw;
+    border-radius: 2vh;
+    border: none;
+    float: right;
+    padding-top: 40px;
+}
+.text-img{
+    width: 10vw;
+    font-size: 1.6rem;
+    color: #36495f;
+    text-align: justify;
+    padding:37px 0px 5px 0px;   
+}
+.first-letter::first-letter{
+    font-size: 5.1rem;
+    color: #2ac176;
+}
+.flex{
+    display: flex   ;
+    justify-content: space-evenly;
+}
+form{
+    border:2px solid #36495f;
+   justify-content:space-around;
+   margin-top: -45vh;
+   width: 30%;
+   border-radius: 12px;
+   padding: 10px 30px;
+ 
+}
+h1{
+    font-size: 2.0rem;
+    color: #51647a;
+    text-align: center;
+}
+label{
+    font-size: 1.3rem;
+}
+.inp{
+   width: 100%;
+    background-color:#2ac176;
+    color: black;
+    height: 4vh;
+   border-radius: 5px;
+   padding-left: 12px;
+   
+}
+.inp:focus{
+    outline: none;
+    background-color: #dbebde;
+}
+.form{
+    margin-left: 10%;
+    margin-top: 25px;
+}
+.sub{
+    background-color:#2ac176;
+    color: white;
+    padding: 12px 22px;
+    font-size: 1.0rem;
+    border: none;
+    border-radius: 5px;
+}
+.sub:hover{
+    background-color: black;
+    color: #2ac176;
+    box-shadow: 0 0 15px #2ac176;
+}
+.sec-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f8f8f8;
+   padding: 10vh;
+}
+.card{
+    height: auto;
+    width: 28vw;
+    padding: 1%;
+    margin: 2% ;
+    border: 2px solid #185f3c;
+    background-color: #f4f6fa;
+    border-radius: 12px;
+   
+}
+.card-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-h2{
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+.card-p{
+    color: rgb(155, 153, 153);
+}
+.card-text{
+    margin-top: 20px;
+}
+.card-h-1{
+    height:52vh;
+}
+.card-h-2{
+    height: 65vh;
+}
+.card-h-3{
+    height: 80vh;
+}
+.img-1{
+    height: 135px;
+    width: 135px;
+}
+.img-2{
+    height: 200px;
+    width: 200px;
+}
+.img-3{
+    height: 300px;
+    width: 300px;
+}
+.card-mrp{
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: #185f3c;
+}
+.card-btn{
+    display: flex;   
+}
+.card-btn button{
+    margin: 2px 10px 2px 0px;
+    padding: 4px 12px;
+    border-radius: 8px;
+    border:2px solid #36495f;
+    background-color: #f4f6fa;
+}
+.card-btn button:hover{
+    border:2px solid #2ac176;
+}
+
+.card-add button{
+    color: black;
+    font-size: 1.2rem;
+    width: 100%;
+    background-color: white;
+    border: 2px solid black;
+    padding: 7px 0px;
+    margin-top: 10px;
+    border-radius: 7px;
+    
+}
+.card-add button:hover{
+    background-color: #2ac176;
+    box-shadow: 0 0 6px #185f3c;
+}

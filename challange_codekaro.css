@@ -22,7 +22,11 @@ body{
     border: none;
     margin: 20px 20px;
     color: white;
+    
 }
+/* .container:hover{
+    transform: rotate(2deg);
+} */
 img{
     width: 300px;
     border-top-left-radius: 15px;

@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: url(../image/zomato_background.avif);
+    background-size: cover;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+}
+.contain{
+    text-align: center;
+    margin: 158px 0 0 0;
+    width: 60%;
+
+}
+.head{
+    color: white;
+    font-style: italic;
+    font-size: 75px;
+    font-weight: 900;
+    margin: 0;
+    
+}
+.contain-para{
+    font-size: 30px;
+  margin-top: 10px;
+    color: white;
+}
+form{
+    display: flex;
+    width: 100%;
+
+}
+input:focus{
+    outline:none;
+    background-color: #f3f3f3;
+}
+
+input{
+    height: 40px;
+    width: 80%;
+    padding: 10px 0px 10px 6px;
+    border: none;
+    background-color: white;
+    font-size: 1.1rem;
+
+}
+.ahemdabad{    
+    width: 13%;
+    pointer-events: none;
+}
+.search{
+    padding: 19.7px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    width: 3%;
+    border-radius: 12px 0 0 12px;
+    padding: 10px 10px 10px 5px;
+}
+button{
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 12px 12px 0;
+    font-size: 1.1rem;
+    color: tomato;
+    cursor: pointer;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.sec-p{
+    color: rgb(93, 93, 93);
+}
+
+.sec-h1{
+    font-size: 30px;
+    font-weight: 200;
+    margin: 65px 0 0 0;
+}
+.how{
+    text-align: center;
+    
+}
+
+.card{
+    display: flex;
+    justify-content:stretch
+}
+.f-card{
+    width: 350px;
+    margin-right: 18px;
+    border: 2px solid lightgrey;
+    border-radius: 15px;
+}
+.f-card img{
+    width: 100%;
+    height: 165px;
+    border-radius: 15px 15px 0 0;
+}
+h2{
+    font-weight: 200;
+    font-size: 1.4rem;
+    margin-bottom: 9px;
+}
+.desc{
+    margin-left: 20px;
+}
+.f-para{
+    font-size: 0.9rem;
+    color: rgb(93, 93, 93);
+}
+.food-second{
+    align-items: center;
+}
+.food-boy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-2{
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+    margin: 35px 10px;
+    /* border: 2px solid lightgrey; */
+    box-shadow: 0 0 12px rgb(210, 210, 210);
+}
+.text{
+    text-align: center;
+}
+.png{
+    height: 60px ;
+    width: 60px;
+}
+.h{
+    font-weight: 500;
+    font-size: 2.0rem;
+    
+}
+.png-out{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto 10px;
+    box-shadow: 0 0 35px rgb(239, 237, 237);
+}
+.bg1{
+    background-color: rgb(255, 252, 241);
+}
+.bg2{
+    background-color: rgb(255, 245, 246);
+}
+.bg3{
+    background-color: rgb(255, 249, 241);
+}
+.card-p{
+    color: rgba(119, 119, 121, 0.733);
+}
+h3{
+    color: grey;
+}
+h1{
+    font-weight: 300;
+}
+.third{
+    background-color: rgb(255, 251, 247);
+}
+.mobile-img{
+    display: flex;
+    align-items: center;
+    margin: 2.5% 2rem 0 0;
+}
+.mobile-img img{
+    height: 34vh;
+    width: 100%;
+    
+}
+.text-side{
+    width: 35%;
+}
+.text-h1{
+    font-weight: 400;
+    font-size: 2.6rem;
+    margin: 0;
+}
+.text-p{
+    color: grey;
+}
+
+label{
+    width: 100%;
+}
+.felx-inp{
+    width: 100%;
+    background-color: rebeccapurple;
+}
+form{
+    display: flex;
+    align-items: center;
+}
+.radio{
+    height: 35px;
+    width: 35px;
+    background-color: #ef4f5f;
+    margin: 0 15px 0 0;
+}
+.flex-img img{
+    height: 40px;
+    width: 130px;
+    
+}
+.flex-share{
+    display: flex;
+    justify-content: space-between;
+}
+.wid{
+    width: 65%;
+    height: 25px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 1.5px solid rgb(207, 206, 206);
+}
+.wid:focus{
+    outline: none;
+    border: 1.5px solid #f14254;
+    background-color: white;
+}
+.flex-share button{
+    background-color: #ef4f5f;
+    color: white;
+    border-radius: 8px;
+}
+.flex-share button:hover{
+    background-color: #f14254;
+}
