@@ -177,6 +177,7 @@ h1{
 }
 .third{
     background-color: rgb(255, 251, 247);
+    padding: 150px 0;
 }
 .mobile-img{
     display: flex;
